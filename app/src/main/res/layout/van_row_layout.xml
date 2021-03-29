@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="VAN PLATE NUMBER                     : "
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/vanID2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="170dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="sssss"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="NO OF SEATS   :"
+            android:gravity="center_vertical"
+            android:textSize="15dp"
+            android:textColor="#000"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/vanseats2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="170dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="sssss"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="FILLED SEATS    :"
+            android:gravity="center_vertical"
+            android:textSize="15dp"
+            android:textColor="#000"
+            android:layout_marginTop="40dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/vanfillseats2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="170dp"
+            android:layout_marginTop="40dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="sssss"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="AVAILABLE SEATS             :"
+            android:gravity="center_vertical"
+            android:textSize="15dp"
+            android:textColor="#000"
+            android:layout_marginTop="60dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/vanavailable2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="170dp"
+            android:layout_marginTop="60dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="sssss"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CONDITIONS                          :"
+            android:gravity="center_vertical"
+            android:textSize="15dp"
+            android:textColor="#000"
+            android:layout_marginTop="80dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/vanconditions2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="169dp"
+            android:layout_marginTop="80dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="sssss"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="REGISTERED DATE        :"
+            android:gravity="center_vertical"
+            android:textSize="15dp"
+            android:textColor="#000"
+            android:layout_marginTop="100dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/vanregdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="169dp"
+            android:layout_marginTop="100dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="sssss"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/viewlocation"
+            android:layout_width="122dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="150dp"
+            android:layout_marginEnd="220dp"
+            android:background="@drawable/custombuttonno"
+            android:text="VIEW LOCATION" />
+
+        <Button
+            android:id="@+id/viewschool"
+            android:layout_width="122dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="150dp"
+            android:layout_marginEnd="64dp"
+            android:background="@drawable/custombuttonno"
+            android:text="VIEW SCHOOL" />
+
+
+        <Button
+            android:id="@+id/vanupdate"
+            android:layout_width="127dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="220dp"
+            android:layout_marginEnd="258dp"
+            android:background="@drawable/eveningroutine"
+            android:text="UPDATE"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/vanstudent"
+            android:layout_width="127dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="220dp"
+            android:layout_marginEnd="133dp"
+            android:background="@drawable/eveningroutine"
+            android:text="Manage Students"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/vandelete"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="220dp"
+            android:layout_marginEnd="2dp"
+            android:background="@drawable/custombuttonyes"
+            android:text="DELETE"
+
+            android:textColor="#fff" />
+
+        <!--<ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="2dp"
+            android:id="@+id/imageView"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Line1"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/imageView"
+            android:id="@+id/textView"/>
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Line2"
+            android:textSize="15dp"
+            android:layout_below="@+id/textView"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@+id/imageView"/>-->
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

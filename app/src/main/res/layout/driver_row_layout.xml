@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="DRIVER NIC                     : "
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/driverID2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="170dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="sssss"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="DRIVER FIRST NAME    :"
+            android:gravity="center_vertical"
+            android:textSize="15dp"
+            android:textColor="#000"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/driverFName2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="170dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="sssss"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="DRIVER LAST NAME     :"
+            android:gravity="center_vertical"
+            android:textSize="15dp"
+            android:textColor="#000"
+            android:layout_marginTop="40dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/driverLName2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="170dp"
+            android:layout_marginTop="40dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="sssss"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="DATE OF BIRTH             :"
+            android:gravity="center_vertical"
+            android:textSize="15dp"
+            android:textColor="#000"
+            android:layout_marginTop="60dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/driverdob2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="170dp"
+            android:layout_marginTop="60dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="sssss"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="GENDER                           :"
+            android:gravity="center_vertical"
+            android:textSize="15dp"
+            android:textColor="#000"
+            android:layout_marginTop="80dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/drivergender2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="169dp"
+            android:layout_marginTop="80dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="sssss"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="EMAIL                              :"
+            android:gravity="center_vertical"
+            android:textSize="15dp"
+            android:textColor="#000"
+            android:layout_marginTop="100dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/driveremail2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="169dp"
+            android:layout_marginTop="100dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="sssss"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="SALARY                           :"
+            android:gravity="center_vertical"
+            android:textSize="15dp"
+            android:textColor="#000"
+            android:layout_marginTop="120dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/driversalary2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="169dp"
+            android:layout_marginTop="120dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="sssss"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ADDRESS                        :"
+            android:gravity="center_vertical"
+            android:textSize="15dp"
+            android:textColor="#000"
+            android:layout_marginTop="140dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/driveraddress2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="169dp"
+            android:layout_marginTop="140dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="sssss"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="DRIVER LICENCE           :"
+            android:gravity="center_vertical"
+            android:textSize="15dp"
+            android:textColor="#000"
+            android:layout_marginTop="160dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/driverlicence2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="169dp"
+            android:layout_marginTop="160dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="sssss"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CONTACT NUMBER      :"
+            android:gravity="center_vertical"
+            android:textSize="15dp"
+            android:textColor="#000"
+            android:layout_marginTop="180dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/drivercontact2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="169dp"
+            android:layout_marginTop="180dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="sssss"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="VAN PLATE NUMBER   :"
+            android:gravity="center_vertical"
+            android:textSize="15dp"
+            android:textColor="#000"
+            android:layout_marginTop="200dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/drivervan2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="169dp"
+            android:layout_marginTop="200dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="sssss"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CONTRACT                     :"
+            android:gravity="center_vertical"
+            android:textSize="15dp"
+            android:textColor="#000"
+            android:layout_marginTop="220dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/drivercontract2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="169dp"
+            android:layout_marginTop="220dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="sssss"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="REGISTERED DATE        :"
+            android:gravity="center_vertical"
+            android:textSize="15dp"
+            android:textColor="#000"
+            android:layout_marginTop="240dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/driverregdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="169dp"
+            android:layout_marginTop="240dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="sssss"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/deletedriver"
+            android:layout_width="122dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="260dp"
+            android:layout_marginEnd="23dp"
+            android:background="@drawable/custombuttonyes"
+            android:text="DELETE" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

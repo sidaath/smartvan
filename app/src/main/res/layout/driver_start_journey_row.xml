@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:orientation="horizontal"
+    android:layout_margin="16dp">
+
+    <TextView
+        android:id="@+id/txtChildName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_weight="70"/>
+
+    <Button
+        android:id="@+id/btnMarkAbsent"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="Absent"
+        android:textSize="11dp"
+        android:layout_weight="20"
+        android:layout_margin="12dp"/>
+
+    <Button
+        android:id="@+id/btnMarkPresent"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="Present"
+        android:textSize="11dp"
+        android:layout_weight="20"
+        android:layout_margin="12dp"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

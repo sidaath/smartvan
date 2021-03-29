@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">SmartVan</string>
+    <string name="smartvan">smartvan</string>
+    <string name="school_van_management_system">svm</string>
+    <string name="national_identity_card">NIC</string>
+    <string name="forget_password">fpassword</string>
+    <string name="todo">todo</string>
+    <string name="invalid_NIC">Please Enter Valid NIC</string>
+    <string name="invalid_first_name">Required Field</string>
+    <string name="invalid_last_name">Required Field!</string>
+    <string name="invalid_email">Enter Valid Email</string>
+    <string name="invalid_phone">Enter valid phone number</string>
+    <string name="invalid_GLN">Enter govt licence number</string>
+    <string name="invalid_password">Password doesn\'t match</string>
+    <string name="invalid_Date_of_Birth">Please enter valid Birth Date</string>
+    <string name="invalid_salary">Please enter valid number</string>
+    <string name="invalid_Licence">Please enter valid Licence Number</string>
+    <string name="invalid_van">please enter valid valid plate number</string>
+    <string name="invalid_seats">"please enter valid number "</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_driver_payments">DriverPayments</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>
