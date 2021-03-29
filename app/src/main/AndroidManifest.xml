@@ -12,7 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SmartVan"
         android:usesCleartextTraffic="true">
-        <activity android:name=".DriverTypeSingleParentMessage"></activity>
+        <activity android:name=".ChildRegistration"></activity>
+        <activity android:name=".ParentMyChildren" />
+        <activity android:name=".DriverTypeSingleParentMessage" />
         <activity android:name=".DriverMessageAllParents" />
         <activity android:name=".DriverMessageSingleParent" />
         <activity android:name=".DriverDailyMap" />

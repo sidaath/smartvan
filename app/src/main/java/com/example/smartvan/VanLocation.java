@@ -27,6 +27,8 @@ public class VanLocation extends AppCompatActivity {
             r=(String)b2.get("vanname");
             // text.setText(r);
         }
+
+
         spinner=findViewById(R.id.locationSpinner);
 
         final ArrayList<String> locationList= new ArrayList<>();
@@ -68,6 +70,8 @@ public class VanLocation extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+
     }
 
     public void onAddLocation(View view) {

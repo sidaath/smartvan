@@ -7,30 +7,29 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class ParentDashboard extends AppCompatActivity {
+public class ParentMyChildren extends AppCompatActivity {
     String j;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_parent_dashboard);
+        setContentView(R.layout.activity_parent_my_children);
 
         Intent ii=getIntent();
         Bundle b=ii.getExtras();
         if(b!=null){
-            j=(String)b.get("parent");
+            j=(String)b.get("parentID");
             // text.setText(j);
         }
 
-        Button myChildren = (Button)findViewById(R.id.btnParentMyChildren);
-        myChildren.setOnClickListener(new View.OnClickListener() {
+        Button addChild = (Button)findViewById(R.id.btnParentNewChild);
+        addChild.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(ParentDashboard.this, ParentMyChildren.class);
+                Intent intent = new Intent(ParentMyChildren.this, ChildRegistration.class);
                 intent.putExtra("parentID", j);
                 startActivity(intent);
             }
         });
+
     }
-
-
 }
