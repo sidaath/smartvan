@@ -1,14 +1,19 @@
 package com.example.smartvan;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.Manifest;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.icu.util.Calendar;
+import android.os.Build;
 import android.os.Bundle;
 import android.text.format.DateUtils;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -19,6 +24,8 @@ public class DriverStartJourney extends AppCompatActivity {
         protected void onCreate (Bundle savedInstanceState){
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_driver_start_journey);
+
+
 
             SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
             String currentDate = sdf.format(new Date());
@@ -52,7 +59,37 @@ public class DriverStartJourney extends AppCompatActivity {
             DriverDailyListBackend getChildren = new DriverDailyListBackend(DriverStartJourney.this);
             getChildren.execute(driverID);
 
+
+            if (Build.VERSION.SDK_INT >= 23) {
+                if (checkSelfPermission(Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+                    requestPermissions(new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 1);
+                } else {
+                    startLocationUpdates();
+                }
+            } else {
+                startLocationUpdates();
+            }
+
         }
+
+    void startLocationUpdates(){
+        Intent intent = new Intent(DriverStartJourney.this, DriverLocationService.class);
+        intent.putExtra("driverID", driverID);
+        startService(intent);
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        switch (requestCode){
+            case 1:
+                if(grantResults[0]== PackageManager.PERMISSION_GRANTED){
+                    startLocationUpdates();
+                }else{
+                    Toast.makeText(this, "Permissions Required", Toast.LENGTH_SHORT).show();
+                }
+        }
+    }
 
         public void viewMap (View view){
             Intent intent = new Intent(this, DriverDailyMap.class);
