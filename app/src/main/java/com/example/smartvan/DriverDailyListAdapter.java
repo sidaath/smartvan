@@ -42,6 +42,8 @@ public class DriverDailyListAdapter extends RecyclerView.Adapter<DriverDailyList
             present.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
+                    present.setClickable(false);
+                    absent.setClickable(false);
                     String name = thisChild.getChildfname();
                     int id = thisChild.getChildId();
                     String childID = Integer.toString(id);
@@ -54,6 +56,8 @@ public class DriverDailyListAdapter extends RecyclerView.Adapter<DriverDailyList
             absent.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
+                    absent.setClickable(false);
+                    present.setClickable(false);
                     String name = thisChild.getChildfname();
                     int id = thisChild.getChildId();
                     String childID = Integer.toString(id);
